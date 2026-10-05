@@ -32,3 +32,22 @@ source venv/bin/activate
 
 # Executar l'script de prova
 python3 main.py
+![Entorn de desenvolupament Python](https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png)
+
+## Comprovacions
+
+- [ ] Comprovar que la comanda `python3 --version` retorna la versió correctament.
+- [ ] Verificar que l'entorn virtual s'activa (apareix `(venv)` a l'inici de la línia del terminal).
+- [ ] Executar el fitxer `main.py` i comprovar que la sortida per pantalla és l'esperada.
+
+## Incidències i solucions
+
+| Incidència / Error | Solució aplicada |
+| :--- | :--- |
+| `python3: command not found` | Instal·lar el paquet de Python 3 mitjançant el gestor de paquets (`sudo apt install python3`). |
+| Error de permisos en activar `venv` | Donar permisos d'execució al script d'activació o utilitzar `bash` explícitament. |
+
+## Recursos
+
+- [Documentació oficial de Python](https://docs.python.org/3/)
+- [Guia d'entorns virtuals en Python](https://docs.python.org/3/tutorial/venv.html)
